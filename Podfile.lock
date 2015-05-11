@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (1.2.1)
+  - JSQMessagesViewController (7.0.2):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Locksmith (1.2.1)
+  - Socket.IO-Client-Swift (2.2.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 1.2)
+  - JSQMessagesViewController (~> 7.0.1)
+  - Locksmith
+  - Socket.IO-Client-Swift (~> 2.2.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 1acfdf179aff68b41a48dff70c1ac7fa263e2bcb
+  JSQMessagesViewController: bb6649691182b1899dc52b42266ad69efc473510
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Locksmith: 770f6c5c6e5c5c712d1f00e709c62b8a7240c716
+  Socket.IO-Client-Swift: 48e9e419f1fc023b2f149bf159b24d6a946cdbcd
+
+COCOAPODS: 0.36.4

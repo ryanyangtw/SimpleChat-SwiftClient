@@ -7,12 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A36C1784E99CB683835487A /* Pods_SimpleChatClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A9B8C8C33C679362BFE3B2 /* Pods_SimpleChatClient.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		940BB8D01AF9CA2700695186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BB8CF1AF9CA2700695186 /* AppDelegate.swift */; };
 		940BB8D21AF9CA2700695186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BB8D11AF9CA2700695186 /* ViewController.swift */; };
 		940BB8D51AF9CA2700695186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940BB8D31AF9CA2700695186 /* Main.storyboard */; };
 		940BB8D71AF9CA2700695186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940BB8D61AF9CA2700695186 /* Images.xcassets */; };
 		940BB8DA1AF9CA2700695186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940BB8D81AF9CA2700695186 /* LaunchScreen.xib */; };
 		940BB8E61AF9CA2700695186 /* SimpleChatClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940BB8E51AF9CA2700695186 /* SimpleChatClientTests.swift */; };
+		941F88641AFB76D2007595A6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88631AFB76D2007595A6 /* Message.swift */; };
+		941F88681AFC9FD8007595A6 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88651AFC9FD8007595A6 /* SigninView.swift */; };
+		941F88691AFC9FD8007595A6 /* SigninTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88661AFC9FD8007595A6 /* SigninTextField.swift */; };
+		941F886A1AFC9FD8007595A6 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88671AFC9FD8007595A6 /* HudView.swift */; };
+		941F886F1AFCA15B007595A6 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F886E1AFCA15B007595A6 /* SigninViewController.swift */; };
+		941F88711AFCADAE007595A6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88701AFCADAE007595A6 /* UserModel.swift */; };
+		941F88741AFCAE2C007595A6 /* SimpleChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88731AFCAE2C007595A6 /* SimpleChat.swift */; };
+		941F88781AFCBE38007595A6 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88771AFCBE38007595A6 /* FriendCell.swift */; };
+		941F887A1AFCBF16007595A6 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88791AFCBF16007595A6 /* UIImageView+DownloadImage.swift */; };
+		941F887D1AFCDAE2007595A6 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F887C1AFCDAE2007595A6 /* FriendListViewController.swift */; };
+		941F887F1AFCE702007595A6 /* ChatroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F887E1AFCE702007595A6 /* ChatroomViewController.swift */; };
+		941F88811AFD03BD007595A6 /* ChatroomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88801AFD03BD007595A6 /* ChatroomListViewController.swift */; };
+		941F88831AFD03F9007595A6 /* ChatroomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88821AFD03F9007595A6 /* ChatroomModel.swift */; };
+		941F88851AFD070D007595A6 /* ChatroomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F88841AFD070D007595A6 /* ChatroomCell.swift */; };
+		9486AF971AFB43A600194ABB /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486AF961AFB43A600194ABB /* Functions.swift */; };
+		9486AF9C1AFB6A6000194ABB /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486AF9B1AFB6A6000194ABB /* MessagesViewController.swift */; };
+		94D161581B005EB0007F39E5 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94D161571B005EB0007F39E5 /* ApiKeys.plist */; };
+		94D1615A1B005F42007F39E5 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D161591B005F42007F39E5 /* ApiKeys.swift */; };
+		94D1615D1B006138007F39E5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1615B1B006138007F39E5 /* Bolts.framework */; };
+		94D1615E1B006138007F39E5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1615C1B006138007F39E5 /* Parse.framework */; };
+		94D161601B0061A2007F39E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1615F1B0061A2007F39E5 /* AudioToolbox.framework */; };
+		94D161621B0061AD007F39E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161611B0061AD007F39E5 /* CFNetwork.framework */; };
+		94D161641B0061B9007F39E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161631B0061B9007F39E5 /* CoreGraphics.framework */; };
+		94D161661B0061C0007F39E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161651B0061C0007F39E5 /* CoreLocation.framework */; };
+		94D161681B0061CA007F39E5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161671B0061CA007F39E5 /* MobileCoreServices.framework */; };
+		94D1616A1B0061D3007F39E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161691B0061D3007F39E5 /* QuartzCore.framework */; };
+		94D1616C1B0061E0007F39E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1616B1B0061E0007F39E5 /* Security.framework */; };
+		94D1616E1B0061E9007F39E5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1616D1B0061E9007F39E5 /* StoreKit.framework */; };
+		94D161701B0061F3007F39E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D1616F1B0061F3007F39E5 /* SystemConfiguration.framework */; };
+		94D161721B006203007F39E5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161711B006203007F39E5 /* libz.dylib */; };
+		94D161741B00620E007F39E5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161731B00620E007F39E5 /* libsqlite3.dylib */; };
+		94D161761B0063BE007F39E5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161751B0063BE007F39E5 /* Social.framework */; };
+		94D161781B00645A007F39E5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D161771B00645A007F39E5 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8398E6843A59FCAE06584979 /* Pods-SimpleChatClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChatClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleChatClient/Pods-SimpleChatClient.release.xcconfig"; sourceTree = "<group>"; };
+		83A9B8C8C33C679362BFE3B2 /* Pods_SimpleChatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleChatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		940BB8CA1AF9CA2600695186 /* SimpleChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		940BB8CE1AF9CA2700695186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940BB8CF1AF9CA2700695186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +72,41 @@
 		940BB8DF1AF9CA2700695186 /* SimpleChatClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940BB8E41AF9CA2700695186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940BB8E51AF9CA2700695186 /* SimpleChatClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChatClientTests.swift; sourceTree = "<group>"; };
+		941F88631AFB76D2007595A6 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		941F88651AFC9FD8007595A6 /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		941F88661AFC9FD8007595A6 /* SigninTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninTextField.swift; sourceTree = "<group>"; };
+		941F88671AFC9FD8007595A6 /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		941F886E1AFCA15B007595A6 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		941F88701AFCADAE007595A6 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		941F88731AFCAE2C007595A6 /* SimpleChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChat.swift; sourceTree = "<group>"; };
+		941F88771AFCBE38007595A6 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		941F88791AFCBF16007595A6 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
+		941F887C1AFCDAE2007595A6 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		941F887E1AFCE702007595A6 /* ChatroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomViewController.swift; sourceTree = "<group>"; };
+		941F88801AFD03BD007595A6 /* ChatroomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomListViewController.swift; sourceTree = "<group>"; };
+		941F88821AFD03F9007595A6 /* ChatroomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomModel.swift; sourceTree = "<group>"; };
+		941F88841AFD070D007595A6 /* ChatroomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomCell.swift; sourceTree = "<group>"; };
+		9486AF961AFB43A600194ABB /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		9486AF981AFB69E300194ABB /* SimpleChatClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleChatClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		9486AF9B1AFB6A6000194ABB /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		94D161571B005EB0007F39E5 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		94D161591B005F42007F39E5 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		94D1615B1B006138007F39E5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		94D1615C1B006138007F39E5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		94D1615F1B0061A2007F39E5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		94D161611B0061AD007F39E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		94D161631B0061B9007F39E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94D161651B0061C0007F39E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		94D161671B0061CA007F39E5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		94D161691B0061D3007F39E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94D1616B1B0061E0007F39E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94D1616D1B0061E9007F39E5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		94D1616F1B0061F3007F39E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		94D161711B006203007F39E5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		94D161731B00620E007F39E5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		94D161751B0063BE007F39E5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		94D161771B00645A007F39E5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BA28278DE98E7CD32AEE11B7 /* Pods-SimpleChatClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChatClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleChatClient/Pods-SimpleChatClient.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +114,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D161781B00645A007F39E5 /* Accounts.framework in Frameworks */,
+				94D161761B0063BE007F39E5 /* Social.framework in Frameworks */,
+				94D161741B00620E007F39E5 /* libsqlite3.dylib in Frameworks */,
+				94D161721B006203007F39E5 /* libz.dylib in Frameworks */,
+				94D161701B0061F3007F39E5 /* SystemConfiguration.framework in Frameworks */,
+				94D1616E1B0061E9007F39E5 /* StoreKit.framework in Frameworks */,
+				94D1616C1B0061E0007F39E5 /* Security.framework in Frameworks */,
+				94D1616A1B0061D3007F39E5 /* QuartzCore.framework in Frameworks */,
+				94D161681B0061CA007F39E5 /* MobileCoreServices.framework in Frameworks */,
+				94D161661B0061C0007F39E5 /* CoreLocation.framework in Frameworks */,
+				94D161641B0061B9007F39E5 /* CoreGraphics.framework in Frameworks */,
+				94D161621B0061AD007F39E5 /* CFNetwork.framework in Frameworks */,
+				94D161601B0061A2007F39E5 /* AudioToolbox.framework in Frameworks */,
+				6A36C1784E99CB683835487A /* Pods_SimpleChatClient.framework in Frameworks */,
+				94D1615E1B006138007F39E5 /* Parse.framework in Frameworks */,
+				94D1615D1B006138007F39E5 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +143,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FDC81C46DED7C9A61A392FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA28278DE98E7CD32AEE11B7 /* Pods-SimpleChatClient.debug.xcconfig */,
+				8398E6843A59FCAE06584979 /* Pods-SimpleChatClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9092C32D230A6A7A23036C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D161771B00645A007F39E5 /* Accounts.framework */,
+				94D161751B0063BE007F39E5 /* Social.framework */,
+				94D161731B00620E007F39E5 /* libsqlite3.dylib */,
+				94D161711B006203007F39E5 /* libz.dylib */,
+				94D1616F1B0061F3007F39E5 /* SystemConfiguration.framework */,
+				94D1616D1B0061E9007F39E5 /* StoreKit.framework */,
+				94D1616B1B0061E0007F39E5 /* Security.framework */,
+				94D161691B0061D3007F39E5 /* QuartzCore.framework */,
+				94D161671B0061CA007F39E5 /* MobileCoreServices.framework */,
+				94D161651B0061C0007F39E5 /* CoreLocation.framework */,
+				94D161631B0061B9007F39E5 /* CoreGraphics.framework */,
+				94D161611B0061AD007F39E5 /* CFNetwork.framework */,
+				94D1615F1B0061A2007F39E5 /* AudioToolbox.framework */,
+				83A9B8C8C33C679362BFE3B2 /* Pods_SimpleChatClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		940BB8C11AF9CA2600695186 = {
 			isa = PBXGroup;
 			children = (
+				94D1615B1B006138007F39E5 /* Bolts.framework */,
+				94D1615C1B006138007F39E5 /* Parse.framework */,
 				940BB8CC1AF9CA2600695186 /* SimpleChatClient */,
 				940BB8E21AF9CA2700695186 /* SimpleChatClientTests */,
 				940BB8CB1AF9CA2600695186 /* Products */,
+				1FDC81C46DED7C9A61A392FA /* Pods */,
+				9092C32D230A6A7A23036C4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +198,20 @@
 		940BB8CC1AF9CA2600695186 /* SimpleChatClient */ = {
 			isa = PBXGroup;
 			children = (
+				941F88721AFCAE14007595A6 /* Header */,
 				940BB8CF1AF9CA2700695186 /* AppDelegate.swift */,
 				940BB8D11AF9CA2700695186 /* ViewController.swift */,
 				940BB8D31AF9CA2700695186 /* Main.storyboard */,
 				940BB8D61AF9CA2700695186 /* Images.xcassets */,
 				940BB8D81AF9CA2700695186 /* LaunchScreen.xib */,
 				940BB8CD1AF9CA2600695186 /* Supporting Files */,
+				9486AF961AFB43A600194ABB /* Functions.swift */,
+				94D161591B005F42007F39E5 /* ApiKeys.swift */,
+				9486AF981AFB69E300194ABB /* SimpleChatClient-Bridging-Header.h */,
+				941F887B1AFCDA42007595A6 /* Utilities */,
+				941F886D1AFCA01F007595A6 /* Controllers */,
+				941F886C1AFCA012007595A6 /* Model */,
+				941F886B1AFC9FDD007595A6 /* Views */,
 			);
 			path = SimpleChatClient;
 			sourceTree = "<group>";
@@ -91,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				940BB8CE1AF9CA2700695186 /* Info.plist */,
+				94D161571B005EB0007F39E5 /* ApiKeys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +242,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		941F886B1AFC9FDD007595A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				941F88651AFC9FD8007595A6 /* SigninView.swift */,
+				941F88671AFC9FD8007595A6 /* HudView.swift */,
+				941F88661AFC9FD8007595A6 /* SigninTextField.swift */,
+				941F88771AFCBE38007595A6 /* FriendCell.swift */,
+				941F88841AFD070D007595A6 /* ChatroomCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		941F886C1AFCA012007595A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				941F88631AFB76D2007595A6 /* Message.swift */,
+				941F88701AFCADAE007595A6 /* UserModel.swift */,
+				941F88821AFD03F9007595A6 /* ChatroomModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		941F886D1AFCA01F007595A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9486AF9B1AFB6A6000194ABB /* MessagesViewController.swift */,
+				941F886E1AFCA15B007595A6 /* SigninViewController.swift */,
+				941F887C1AFCDAE2007595A6 /* FriendListViewController.swift */,
+				941F88801AFD03BD007595A6 /* ChatroomListViewController.swift */,
+				941F887E1AFCE702007595A6 /* ChatroomViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		941F88721AFCAE14007595A6 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				941F88731AFCAE2C007595A6 /* SimpleChat.swift */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		941F887B1AFCDA42007595A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				941F88791AFCBF16007595A6 /* UIImageView+DownloadImage.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 940BB8E91AF9CA2700695186 /* Build configuration list for PBXNativeTarget "SimpleChatClient" */;
 			buildPhases = (
+				450C025733179087AD0E9846 /* Check Pods Manifest.lock */,
 				940BB8C61AF9CA2600695186 /* Sources */,
 				940BB8C71AF9CA2600695186 /* Frameworks */,
 				940BB8C81AF9CA2600695186 /* Resources */,
+				B08F2364FB3F43256CD05D4D /* Embed Pods Frameworks */,
+				5F367150EB93A2DDF59A0329 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940BB8D51AF9CA2700695186 /* Main.storyboard in Resources */,
+				94D161581B005EB0007F39E5 /* ApiKeys.plist in Resources */,
 				940BB8DA1AF9CA2700695186 /* LaunchScreen.xib in Resources */,
 				940BB8D71AF9CA2700695186 /* Images.xcassets in Resources */,
 			);
@@ -207,13 +391,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		450C025733179087AD0E9846 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F367150EB93A2DDF59A0329 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleChatClient/Pods-SimpleChatClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08F2364FB3F43256CD05D4D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleChatClient/Pods-SimpleChatClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		940BB8C61AF9CA2600695186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9486AF9C1AFB6A6000194ABB /* MessagesViewController.swift in Sources */,
+				941F88831AFD03F9007595A6 /* ChatroomModel.swift in Sources */,
 				940BB8D21AF9CA2700695186 /* ViewController.swift in Sources */,
+				941F88681AFC9FD8007595A6 /* SigninView.swift in Sources */,
+				941F88641AFB76D2007595A6 /* Message.swift in Sources */,
+				941F887D1AFCDAE2007595A6 /* FriendListViewController.swift in Sources */,
+				941F887A1AFCBF16007595A6 /* UIImageView+DownloadImage.swift in Sources */,
+				941F88811AFD03BD007595A6 /* ChatroomListViewController.swift in Sources */,
+				941F886A1AFC9FD8007595A6 /* HudView.swift in Sources */,
+				94D1615A1B005F42007F39E5 /* ApiKeys.swift in Sources */,
 				940BB8D01AF9CA2700695186 /* AppDelegate.swift in Sources */,
+				941F88851AFD070D007595A6 /* ChatroomCell.swift in Sources */,
+				941F887F1AFCE702007595A6 /* ChatroomViewController.swift in Sources */,
+				9486AF971AFB43A600194ABB /* Functions.swift in Sources */,
+				941F88781AFCBE38007595A6 /* FriendCell.swift in Sources */,
+				941F88691AFC9FD8007595A6 /* SigninTextField.swift in Sources */,
+				941F88711AFCADAE007595A6 /* UserModel.swift in Sources */,
+				941F88741AFCAE2C007595A6 /* SimpleChat.swift in Sources */,
+				941F886F1AFCA15B007595A6 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,28 +589,46 @@
 		};
 		940BB8EA1AF9CA2700695186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA28278DE98E7CD32AEE11B7 /* Pods-SimpleChatClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpleChatClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9902196d-e3ab-413c-8e79-e6bccdcd3fab";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleChatClient/SimpleChatClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		940BB8EB1AF9CA2700695186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8398E6843A59FCAE06584979 /* Pods-SimpleChatClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SimpleChatClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9902196d-e3ab-413c-8e79-e6bccdcd3fab";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleChatClient/SimpleChatClient-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		940BB8ED1AF9CA2700695186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA28278DE98E7CD32AEE11B7 /* Pods-SimpleChatClient.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -413,6 +680,7 @@
 				940BB8EB1AF9CA2700695186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940BB8EC1AF9CA2700695186 /* Build configuration list for PBXNativeTarget "SimpleChatClientTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +689,7 @@
 				940BB8EE1AF9CA2700695186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
